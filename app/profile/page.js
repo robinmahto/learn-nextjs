@@ -6,6 +6,7 @@ const page = () => {
       <div>profile pages</div>
       <Link href={"/"}>Home</Link>
       <Link href='/blog'>Blog</Link>
+      <Link href='/profile/about'>about</Link>
     </>
   );
 };
