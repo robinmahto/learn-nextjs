@@ -3,9 +3,9 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-      <div>Home</div>
-      <Link href={"/profile"}>Profile</Link>
-      <Link href="/blog">Blog</Link>
+      <div>profile pages</div>
+      <Link href={"/"}>Home</Link>
+      <Link href='/blog'>Blog</Link>
     </>
   );
 };
