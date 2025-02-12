@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const page = () => {
+const Home = async () => {
   return (
     <>
       <div>Home</div>
-      <Link href={"/profile"}>Profile</Link>
-      <Link href="/blog">Blog</Link>
+      <Link href={"/services"}>Services</Link> <Link href="/blog">Blog</Link>{" "}
+      <Link href="/about">About</Link>
     </>
   );
 };
 
-export default page;
+export default Home;
